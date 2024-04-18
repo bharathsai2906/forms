@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="jihm"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="bhim"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Radio Buttons</h2>
+
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="places" value="kashmir">
+  <label for="kashmir">kashmir</label><br>
+  <input type="radio" id="css" name="places" value="ayodhya">
+  <label for="ayodhya">ayodhya</label><br>
+  <input type="radio" id="javascript" name="places" value="kerala">
+  <label for="kerala">kerala</label>
+</form> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <!DOCTYPE html>
+    <html>
+    <body>
+    
+    <h2>The select Element</h2>
+    
+    <p>The select element defines a drop-down list:</p>
+    
+    <form action="/action_page.php">
+      <label for="ipl">Choose a ipl:</label>
+      <select id="ipl" name="ipl">
+        <option value="chennai">chennai</option>
+        <option value="rcb">rcb</option>
+        <option value="srh">srh</option>
+        <option value="mumbai">mumbai</option>
+      </select>
+      <input type="submit">
+    </form>
+    
+    </body>
+    </html>
+    
+    <!DOCTYPE HTML>
+<html>  
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The boys were enjoying in pool.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Show a Color Picker</h2>
+
+<p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#<!DOCTYPE html>
+  <html>
+  <body>
+  
+  <h2>Show a Color Picker</h2>
+  
+  <p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+  
+  <form action="/action_page.php">
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    <input type="submit" value="Submit">
+  </form>
+  
+  <p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+  
+  </body>
+  </html>">
+  <input type="submit" value="Submit">
+</form>
+
+<p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+
+</body>
+</html>
+
